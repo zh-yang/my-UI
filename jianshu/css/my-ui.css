@@ -175,11 +175,14 @@ span.circle {
 	color: #333;
 	text-decoration: none;
 }
-.info-card>.content::after {
+.info-card>.content {
+	overflow: hidden;
+}
+/*.info-card>.content::after {
 	content: '';
 	display: block;
 	clear: both;
-}
+}*/
 .info-card>.content>p {
 	line-height: 24px;
 	margin: 0 135px 5px 0;
